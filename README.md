@@ -6,20 +6,17 @@
   - description
   - (optional) topics
   - (optional) video/chat conference link
+- Data stored in localStorage
 
 ![chatboard-in-action](https://res.cloudinary.com/ddlhtsgmp/image/upload/v1656524255/chatboard-in-action_hdb8pn.gif)
 
-## Front-End
+## (Front-End) Technologies
 - React
 - HTML
 - CSS
 - Tailwind CSS
 - Daisy UI
 - Typescript
-
-## Backend/Server & Database
-Continuous Project:
-> (temporarily) data stored in localstorage -> will add backend/server & database
 
 ## Usage & Running Locally 
 
