@@ -18,7 +18,7 @@ const Navbar = () => {
               alt={'chatboard-logo'}
             />
           <Link className='mx-auto' to='/' >
-          <p className="md:ml-2  text-black">Chatboard</p> 
+          <p className="md:ml-2  text-black">Chatboard: Meeting Manager</p> 
           </Link>   
         </div>
       </div>

@@ -74,8 +74,8 @@ const Home = (props: Props) => {
       {/** Scroll to top */}
       <ScrollToTop />
         {/** Hero */}
-       <h1 className='text-4xl text-center'>Chatboard Meeting Manager</h1>
-       <h1 className=' mt-2 italic text-center'>Manage your video/chat conferences</h1>
+       <h1 className='md:text-4xl text-2xl text-center'>Chatboard: Meeting Manager</h1>
+       <h1 className=' mt-2 italic text-center'>Manage your video chat conferences</h1>
        {/** Create Meeting Modal */}
        <CreateMeetingModal  meetings={meetings} setMeetings={setMeetings} />
        {/** Meetings/Card/List */}
@@ -152,7 +152,7 @@ const Home = (props: Props) => {
                   leaveFrom="opacity-100 translate-y-0 sm:scale-100"
                   leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
                 >
-                  <div className="my-40 inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
+                  <div className="my-40 inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle w-full sm:max-w-lg sm:w-full">
                     <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
                       <div className="sm:flex sm:items-start">
                         <div className="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-secondary sm:mx-0 sm:h-10 sm:w-10">
